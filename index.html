@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Erhardt Transport Lab</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+		
+    <!-- Custom CSS -->
+    <link href="css/greg.css" rel="stylesheet">
+	
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>UKY Transport Lab</a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="#research" onclick=$("#menu-close").click();>Research</a>
+            </li>
+            <li>
+                <a href="#people" onclick=$("#menu-close").click();>People</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Erhardt Transport Lab</h1>
+            <h3>Transportation Engineering and Data Science</h3>
+            <h3> </h3>
+            <a href="#about" class="page-scroll btn btn-xl">Find Out More</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="about" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Models and data to inform transportation decisions.</h2>
+					
+                    <p class="lead">Annual spending on transportation infrastructure exceeds $70 billion in the US and £10 billion in the UK.  Our goal is to provide the information necessary to make smart decisions about these important investments.  We do this by developing more sophistocated modeling tools to forecast the effects of proposed projects, analyzing new and emerging data sources to understand the effects of past projects, and communicating both to improve policy and planning decisions.</p>
+					
+					<p class="lead">Our lab is a part of an active and growing transportation group in the <a target="_blank" href="https://www.engr.uky.edu/ce/">Department of Civil Engineering</a> at the <a target="_blank" href="http://www.uky.edu/UKHome/">University of Kentucky</a>, Kentucky's flagship university.  We work in close collaboration with the <a target="_blank" href="http://www.ktc.uky.edu/">Kentucky Transportation Center</a>, which serves as the research arm of the state Transportation Cabinet.</p>
+					
+					<p class="lead">We are located in beautiful Lexington, Kentucky, a vibrant small city with the nation's first urban growth boundary.  Lexington is famous for bourbon, bluegrass and basketball, and offers easy access to hiking, rock climbing and other recreational opportunities.</p>
+					
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-8">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-line-chart fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Travel Demand Forecasting</strong>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-8">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-desktop fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Big Data</strong>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-8">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-subway fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Planning and Policy</strong>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Research Grid Section -->
+    <section id="research" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Research</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/sf-data-fusion.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Data Fusion</h4>
+                        <p class="text-muted">Developing a Big Data fusion tool to understand travel demand trends and measure transport project impacts.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/ambag-bike.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Bicycle Route Choice</h4>
+                        <p class="text-muted">Using smartphone location data to estimate the air quality benefits of bicycle infrastructure.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/sf-vot-dist.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Activity-Based Modeling</h4>
+                        <p class="text-muted">Updating an activity-based model to study congestion pricing in San Francisco.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/nchrp-statewide.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Statewide Modeling</h4>
+                        <p class="text-muted">Assessing the utility and costs of statewide travel demand models.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/zephyr.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Zephyr Foundation</h4>
+                        <p class="text-muted">Launching a non-profit foundation for improving travel analysis methods.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/clipper-card.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Transit Smart Card Data</h4>
+                        <p class="text-muted">Evaluating transit smart card data with privacy restrictions and limited penetration rates.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	
+    <!-- Team Section -->
+    <section id="people" class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About Me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-4 text-center">
+                    <div class="team-member">
+                        <img src="img/Greg.jpg" class="img-responsive img-circle" alt="">
+                        <h3>Greg Erhardt</h3>
+                        <h4>Assistant Professor<h4>
+						<a href="pdf/Gregory D Erhardt CV-2016-09-26.pdf">CV</a>
+						<a> </a>
+						<a target="_blank" href="https://scholar.google.com/citations?user=B8CHHiEAAAAJ&hl=en&authuser=1&oi=ao">Google Scholar</a>
+						<a> </a>
+						<a target="_blank" href="https://www.researchgate.net/profile/Gregory_Erhardt"> ResearchGate </a>
+						<a> </a>
+						<a target="_blank" href="https://www.linkedin.com/in/greg-erhardt-377842"> LinkedIn </a>
+						<a> </a>
+						<a target="_blank" href="https://github.com/gregerhardt"> GitHub </a>
+                    </div>
+                </div>
+                <div class="col-lg-8 text-center">
+                    <p class="lead">I bring a track record in transportation modeling and data analysis that spans both research and practice in the US and Europe.  As a practicing engineer, I led the final development and early applications of some of the nation’s most sophisticated transportation modeling systems, including activity-based travel models, a dynamic traffic assignment model, and long-distance travel models.  My PhD is from the <a target="_blank" href="http://www.bartlett.ucl.ac.uk/casa"> Centre for Advanced Spatial Analysis (CASA)</a>, a highly inter-disciplinary program focused on building a new “science of cities”.  I have worked in government, and for <a target="_blank" href="http://www.rand.org/randeurope.html"> RAND Europe</a>, a leading public-policy think tank.  My recent research investigates the application of continuously collected transportation data to the systematic retrospective evaluation of transportation projects.  This research provides a platform from which to better evaluate the accuracy of travel models in forecasting the effects of real-world transportation projects.  </p>
+					<p class="lead">Outside of work I enjoy playing with sticks and building forts with my two boys and our Bernese Mountain Dog.  On Fridays, I get lunch with the PI for the <a target="_blank" href="https://ees.as.uky.edu/users/aer226"> Erhardt Isotope Geochemistry Lab</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	
+    <!-- Callout -->
+    <section id="contact" class="callout">
+
+    </section>
+	
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Contact Us</h2>
+                    <p>We are looking for talented graduate students, post-docs and collaborators.  
+						<br>Please inquire for potential opportunities. 
+						<br>
+						<br>261 Oliver H. Raymond Building
+                        <br>Lexington, KY 40506</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> 859-323-4856 </li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> greg (dot) erhardt (at) uky (dot) edu </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; 2016 Gregory D. Erhardt</p>
+                    <p class="text-muted">Based on a theme from <a target="_blank" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Start Bootstrap</a></p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Data Fusion</h2>
+                                <p class="item-intro text-muted">Developing a Big Data fusion tool to understand travel demand trends and measure transport project impacts.</p>
+                                <img class="img-responsive img-centered" src="img/projects/sf-data-fusion.jpg" alt="">
+								
+                                <p>This research, initially funded by the San Francisco County Transportation Authority, aimed to develop software tools to support the fusion and analysis of large, passively collected data sources for the purpose of measuring and monitoring transit system performance.  This study used San Francisco as a case study, taking advantage of the automated vehicle location (AVL) and automated passenger count (APC) data available on the city transit system.  These data are expanded General Transit Feed Specification (GTFS) data, which were used as a measure of the full set of scheduled transit service.  Reporting and visualization tools were developed to explore transit performance changes over time.
+								</p>
+								
+								<p>Subsequent research funded by University College London, built upon these tools to incorporate longitudinal data on changes in highway conditions and in the drivers of transportation demand, such as households, employment and fuel price.  The highway data component uses GPS traces from a fleet of 500 taxis to impute roadway speeds on streets in San Francisco.  The resulting data visualizations quickly highlight the choke points in the network and are used to monitor the changes that occur through time. 
+								</p>								
+								
+								<p>The combined system was applied to quantify the factors contributing to the divergent ridership trends on BART rapid transit versus MUNI bus in recent years.  It suggests that emerging shared mobility and active transport modes, combined with demographic changes may serve as a greater drag on bus ridership than on rail.
+								</p>    
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Bicycle Route Choice</h2>
+                                <p class="item-intro text-muted">Using smartphone location data to estimate the air quality benefits of bicycle infrastructure.</p>
+                                <img class="img-responsive img-centered" src="img/projects/ambag-bike.png" alt="">
+                                <p>The Association for Monterey Bay Area Governments (AMBAG) sought to develop a model to estimate the emissions reduction benefits of building new bicycle facilities.  The model needed to be implemented as a stand-alone tool that could be freely distributed to its member agencies.  This challenge was met by developing a model that combined bicycle route choice with an incremental logit bicycle mode choice model and an emissions calculator.  GPS traces from bicycle users, collected via the CycleTracks app, were used to estimate the route choice preferences for different types of bicycle facilities.  The California Household Travel Survey was used to estimate a scaling coefficient on the bicycle utility for use in mode choice.  The stand-alone model was implemented in an Adobe ActionScript graphical user interface.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Activity-Based Modeling</h2>
+                                <p class="item-intro text-muted">Updating an activity-based model to study congestion pricing in San Francisco.</p>
+                                <img class="img-responsive img-centered" src="img/projects/sf-vot-dist.png" alt="">
+                                <p>The San Francisco County Transportation Authoirty (SFCTA) sought to use its existing activity-based travel model, SF-CHAMP, to study the impact of area and cordon pricing policies in downtown San Francisco.  To accomplish this, a set of model improvement were undertaken to improve the models treatment of pricing.  These including expanding the geographical bounds of SF-CHAMP to cover the 9-county Bay Area, estimating new time-of-day models that are properly responsive to peak period pricing,  and leveraging the microsimulation nature of the models to draw values of time from a continuous distribution rather than using averages.  This value-of-time improvement was the first of its kind in an activity-based model and allowed the model reflect the full diversity of the sample population with respect to their willingness to pay tolls.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Statewide Modeling</h2>
+                                <p class="item-intro text-muted">Assessing the utility and costs of statewide travel demand models.</p>
+                                <img class="img-responsive img-centered" src="img/projects/nchrp-statewide.png" alt="">
+                                <p>This research aims to assess the expected cost and utility that can be expected to accrue from developing or upgrading a statewide travel demand model.  
+								</p>
+								
+								<p>The core audience for this report is technical or planning staff at state transportation agencies who must make a recommendation on whether and how to engage in statewide modeling at their agency.  To make a recommendation, those individuals need to specify a budget request both in terms of external costs (consultants and materials) and in terms of staff time.  They also need to be able to, at a minimum, articulate, and preferably quantify, the value they expect to achieve by pursuing the proposed approach.  
+								</p>
+								
+								<p>This ongoing research will quantify the costs of statewide models, and both identify and quantify the benefits of statewide models in a range of situations.  It will accomplish this using a novel approach that combines data on the revealed outcomes of existing statewide models, with the collective professional judgment of statewide modelers.  This will be done by offering statewide modelers a scenario-based survey in which they are asked to estimate the costs of a potential modeling project, as well as the utility of the model for different types of applications.  The project involves extensive outreach to all 50 state DOTs to administer the survey as a telephone-based interview.  
+								</p>
+								
+								<p>This is the only study we are aware of to provide a rigorous measure of the utility of different types of models for different applications, and provides a template from which to start the utility assessment for forecasts.  
+								</p>
+								
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Zephyr Foundation</h2>
+                                <p class="item-intro text-muted">Launching a non-profit foundation for improving travel analysis methods.</p>
+                                <img class="img-responsive img-centered" src="img/projects/zephyr.png" alt="">
+                                <p>The Zephyr Foundation’s mission is to advance rigorous transportation and land use decision-making for the public good by advocating for, facilitating, and supporting improved travel analysis and forecasting methods.  It was born from a series of workshops aimed at finding ways to make travel modeling and travel forecasting more scientifically rigorous.  By scientifically rigorous, we mean that it is transferrable, transparent and subject to empirical testing of what works.  The goal is systematic improvement, avoiding a random walk between a variety of novel methods, without the evaluation necessary to choose the most promising.  
+								</p>
+								
+								<p>Greg Erhardt is one of a small group of instigators who have been working to advance this effort.  It is taking the form of a not-for-profit foundation as a vehicle for pushing the industry forward.  This structure provides a home for the effort independent of individual commercial interests, and allows for a greater degree of flexibility than government agencies can achieve.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Transit Smart Card Data</h2>
+                                <p class="item-intro text-muted">Evaluating transit smart card data with privacy restrictions and limited penetration rates.</p>
+                                <img class="img-responsive img-centered" src="img/projects/clipper-card.jpg" alt="">
+                                <p>This research analyzes data from the Clipper Card system in the San Francisco Bay Area, and provides evidence for other agencies seeking to understand the value and limitations of their own data.  It considers how the data can be both useful to the transportation planning process, while a the same time respectful of the privacy of the users. The evaluation goes on to compare this new data set to onboard transit survey data for the same transit systems.  It finds that the smart card data under-represent minority and low-income travelers, relative to the onboard surveys, potentially creating equity issues if the data are used in planning without accounting for these biases.  Broadly, this is an exploration of how to take advantage of both Big Data sources and more traditional transportation surveys.
+								</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
+</html>
